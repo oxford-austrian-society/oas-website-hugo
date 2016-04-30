@@ -7,7 +7,7 @@ build:
 deploy:
   steps:
     - lukevivier/gh-pages:
-        token: $GH_TOKEN
+        token: $GIT_TOKEN
         domain: oxford-austrian-society.github.io
         basedir: public
         repo: oxford-austrian-society/oxford-austrian-society.github.io
