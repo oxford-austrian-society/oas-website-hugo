@@ -1,13 +1,13 @@
-box: debian
+box: golang:1.5.1
 build:
   steps:
-    - arjen/hugo-build@1.8.4:
-        version: "0.15"
+    - arjen/hugo-build:
+      version: "0.15"
+
 deploy:
   steps:
-    - install-packages:
-        packages: git ssh-client
-    - leipert/git-push:
-        gh_oauth: $GIT_TOKEN
-        repo: oxford-austrian-society/oxford-austrian-society.github.io
+    - lukevivier/gh-pages:
+        token: $GH_TOKEN
+        domain: oxford-austrian-society.github.io
         basedir: public
+        repo: oxford-austrian-society/oxford-austrian-society.github.io
