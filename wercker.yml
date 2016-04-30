@@ -10,5 +10,4 @@ deploy:
     - leipert/git-push:
         gh_oauth: $GIT_TOKEN
         repo: oxford-austrian-society/oxford-austrian-society.github.io
-        branch: master
         basedir: public
