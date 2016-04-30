@@ -1,0 +1,21 @@
+box: debian
+build:
+  steps:
+    - arjen/hugo-build@1.8.4:
+        version: "0.15"
+deploy:
+  steps:
+    - install-packages:
+        packages: git ssh-client
+    - leipert/git-push:
+        gh_oauth: $GIT_TOKEN
+        repo: oxford-austrian-society/oas-website-hugo
+        branch: master
+        basedir: public
+    - bundle-install:
+        cwd: public/
+    - leipert/git-push:
+        gh_oauth: $GIT_TOKEN
+        repo: oxford-austrian-society/oxford-austrian-society.github.io
+        branch: master
+        basedir: public

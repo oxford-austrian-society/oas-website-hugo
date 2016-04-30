@@ -1,4 +1,4 @@
-baseurl = "http://hugo.spf13.com/"
+baseurl = "http://oxford-austrian-society.github.io"
 languageCode = "en-us"
 title = "Oxford Austrian Society"
 theme = "hugo-future-imperfect"
@@ -43,9 +43,9 @@ googleAnalytics = ""
 [params.intro]
     header    = "Oxford Austrian Society"
 
-    paragraph = "Bringing Austrian Culture to Oxford. We organise regular social events and host talks by high-profile speakers."
+    paragraph = "Bringing Austrian Culture to Oxford."
 
-    about     = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tellus lacus, auctor vehicula molestie quis, tempor quis velit. Quisque in quam ac leo efficitur vulputate. Phasellus ullamcorper aliquam sodales. Maecenas sit amet condimentum ipsum. Proin sit amet ligula elit. Mauris."
+    about     = "We organise regular social events and host talks by high-profile speakers."
 
 # This will also appear on the sidebar.
 # A width of less than 100px is recommended

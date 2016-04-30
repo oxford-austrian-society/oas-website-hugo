@@ -1,0 +1,4 @@
+[submodule "public"]
+	path = public
+	url = https://github.com/oxford-austrian-society/oxford-austrian-society.github.io.git
+	branch = master
