@@ -1,6 +1,6 @@
 
 prose:
-  rooturl: 'oas-website-hugo/content'
+  rooturl: 'content'
   media: 'static/images'
   metadata:
     content/blog:
