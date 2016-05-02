@@ -4,6 +4,12 @@ prose:
   media: 'static/images'
   metadata:
     content:
+    - name: "title"
+      field:
+        element: "textarea"
+        label: "Post-Title"
+        placeholder: "Name this Post"
+        value: ""
     - name: "author"
       field:
         element: "textarea"
@@ -68,6 +74,12 @@ prose:
         value: "post"
 
     content/blog:
+    - name: "title"
+      field:
+        element: "textarea"
+        label: "Post-Title"
+        placeholder: "Name this Post"
+        value: ""
     - name: "author"
       field:
         element: "textarea"
@@ -101,8 +113,8 @@ prose:
     - name: "date"
       field:
         element: "text"
-        label: "Date"
-        value: CURRENT_DATETIME
+        label: "Date YYYY-MM-DD"
+        value: ""
     - name: "featured"
       field:
         element: "text"
