@@ -1,14 +1,15 @@
 ---
 type: post
 author: Oxford Austrian Society
-categories: ""
+categories: 
+  - Speaker Event
 description: null
-date: ""
+date: "2016-05-02"
 featured: ""
 featuredalt: ""
 featuredpath: ""
 linktitle: ""
-published: true
+published: false
 title: "Reminder: Talk Matthias Strolz"
 ---
 ## A New Post
