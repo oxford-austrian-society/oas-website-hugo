@@ -8,7 +8,7 @@ featured: ""
 featuredalt: ""
 featuredpath: ""
 linktitle: ""
-published: false
+published: true
 title: "Reminder: Talk Matthias Strolz"
 ---
 ## A New Post
