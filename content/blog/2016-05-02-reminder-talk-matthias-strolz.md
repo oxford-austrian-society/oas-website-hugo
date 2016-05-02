@@ -10,7 +10,7 @@ featuredalt: ""
 featuredpath: /images/
 linktitle: ""
 published: false
-title: "Reminder: Talk Matthias Strolz"
+title: "Talk and Dinner: Matthias Strolz"
 ---
 **Friday, 06.05.2016**
 
