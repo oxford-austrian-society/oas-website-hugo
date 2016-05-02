@@ -1,7 +1,7 @@
 ---
 type: post
 author: Oxford Austrian Society
-categories: 
+categories:
   - Speaker Event
 description: null
 date: "2016-05-02"
@@ -9,7 +9,7 @@ featured: strolz.jpg
 featuredalt: ""
 featuredpath: /images/
 linktitle: ""
-published: false
+published: true
 title: "Talk and Dinner: Matthias Strolz"
 ---
 **Friday, 06.05.2016**
