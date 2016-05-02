@@ -62,7 +62,7 @@ prose:
         label: "Linktitle"
         placeholder: ""
         value: ""
-    - name: "draft"
+    - name: "published"
       field:
         element: "checkbox"
         label: "Draft?"
@@ -131,7 +131,7 @@ prose:
         label: "Linktitle"
         placeholder: ""
         value: ""
-    - name: "draft"
+    - name: "published"
       field:
         element: "checkbox"
         label: "Draft?"
