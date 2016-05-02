@@ -5,9 +5,9 @@ categories:
   - Speaker Event
 description: null
 date: "2016-05-02"
-featured: ""
+featured: strolz.jpg
 featuredalt: ""
-featuredpath: ""
+featuredpath: /images/
 linktitle: ""
 published: false
 title: "Reminder: Talk Matthias Strolz"
@@ -19,7 +19,8 @@ Matthias Strolz (gebohren am 10. Juni 1973 in Bludenz) ist österreichischer Pol
 
 Dinner Sign-Up: https://goo.gl/cm0R5f
 Dinner Location: Christ Church College
-Dinner Cost: £8.12
+Dinner Cost: £8.12![strolz]({{site.baseurl}}/static/images/strolz.jpg)
+
 
 Please only sign up for the dinner if you plan to attend. Unfortunately, places for the dinner are limited and will be allocated through a lottery in case of excess demand. Sign up for the dinner closes Saturday, 30 May 2016, end of day.
 
