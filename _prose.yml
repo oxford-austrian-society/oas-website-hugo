@@ -37,8 +37,8 @@ prose:
     - name: "date"
       field:
         element: "text"
-        label: "Date"
-        value: CURRENT_DATETIME
+        label: "Date YYYY-MM-DD"
+        value: ""
     - name: "featured"
       field:
         element: "text"
