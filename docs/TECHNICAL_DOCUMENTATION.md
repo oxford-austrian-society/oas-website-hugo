@@ -7,6 +7,16 @@ This website is built based on the following tools:
 - **[Wercker](http://wercker.com)**, a Docker-based continuous integration tool that handles the build and commit workflow.
 - **[Prose.io](http://prose.io#about)**, an online-editing tool for Github-repositories that acts like a content management system.
 
+## Login
+
+Use our github account to login to **[Wercker](http://wercker.com)** and **[Prose.io](http://prose.io)**.
+
+## What to find elsewhere
+
+- **Mardown-Syntax** - Hugo uses [Github-flavoured markdown](https://help.github.com/articles/basic-writing-and-formatting-syntax/). To see how to embed pictures, look at existing posts, or consult the [documentation of the theme](https://github.com/jpescador/hugo-future-imperfect).
+- **How to use the CMS?** - There's a separate docfile for this, which can be found [here](https://github.com/oxford-austrian-society/oas-website-hugo/blob/master/docs/HOW_TO_USE_THE_CMS.md).
+- **How to change fundamental page-settings?** - Look at **[config.toml](https://github.com/oxford-austrian-society/oas-website-hugo/blob/master/config.toml)**, all fundamental settings of the website are specified here. The file is well-documented.
+
 ## Repository-structure
 
 All the project-files are stored in the **[oas-website-hugo-repository](https://github.com/oxford-austrian-society/oas-website-hugo)**.
@@ -130,3 +140,5 @@ Wercker uses docker-containers (tiny, virtual linux machines) to handle build- a
 After building the site, the contents of the static site sit in the `public`-folder. In the next step, they are deployed simpy by commiting the new contents to the master branch of our **[oxford-austrian-society.github.io-repo](https://github.com/oxford-austrian-society/oxford-austrian-society.github.io)**.
 
 Crucially, this step requires access to  our github-repo, which is implemented via an access-tokes stored in the global variable `$GIT_TOKEN`.  The token was generated on github.com (Settings -> Personal access tokens), and is then stored as a target in wercker (wecker app -> settings -> target). For a nice tutorial on how to set this up see https://gohugo.io/tutorials/automated-deployments/. Crucially, if you should need to set up a new token, do not forget to give it access to your repos, as this is not granted by default!
+
+## CMS-Configuration
