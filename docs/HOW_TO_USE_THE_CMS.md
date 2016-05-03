@@ -36,7 +36,7 @@ Let's create a new post! First click on **blog**, then press the **NEW FILE**-bu
 
 5. **Save changes**: Click on the **Save** button. The site will give you a summary of the changes to the post. Ideally, write an informative description of what you changed in the field above the **Commit-button**, then click it to save your changes.
 
-![Saving](https://github.com/oxford-austrian-society/oas-website-hugo/blob/master/docs/img/prose-save.png)
+  ![Saving](https://github.com/oxford-austrian-society/oas-website-hugo/blob/master/docs/img/prose-save.png)
 
 6. **Publish**: after commiting your changes, you are taken back to the editor view. Refresh your page, and a button displaying **Unpublished** will appear to the right just above your text. Click on it, and it will switch to **Published**. Finally, click on **save changes**, and **commit** again.
 
@@ -60,4 +60,4 @@ In any case, clicking **Insert** will result in the following line being added t
 ```
 If you want to leave the image in the body of the text, that's it. Just save and commit your changes, and and publish the post.
 
-In case you don't want to use the image in the body, but rather as a feature image (which looks a bit better in my opinion), just delete the line of code above, go to the the **Metadata-section**, and fill out the form as described above in *3-4*.
+In case you don't want to use the image in the body, but rather as a feature image (which looks a bit better in my opinion), just delete the line of code above, go to the the **Metadata-section**, and fill out the form as described above in steps 3 - 6.
