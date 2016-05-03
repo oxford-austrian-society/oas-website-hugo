@@ -9,7 +9,6 @@ featuredpath = ""
 linktitle = ""
 title = "New Committee"
 type = "post"
-
 +++
 
 Dear Members,
