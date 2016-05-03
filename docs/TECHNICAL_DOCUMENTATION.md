@@ -142,3 +142,152 @@ After building the site, the contents of the static site sit in the `public`-fol
 Crucially, this step requires access to  our github-repo, which is implemented via an access-tokes stored in the global variable `$GIT_TOKEN`.  The token was generated on github.com (Settings -> Personal access tokens), and is then stored as a target in wercker (wecker app -> settings -> target). For a nice tutorial on how to set this up see https://gohugo.io/tutorials/automated-deployments/. Crucially, if you should need to set up a new token, do not forget to give it access to your repos, as this is not granted by default!
 
 ## CMS-Configuration
+
+ To ensure that prose.io generates the right metadata, when new posts are generated via the CMS, **[_prose.yml](https://github.com/oxford-austrian-society/oas-website-hugo/blob/master/_prose.yml)** specifies the metadata-fields that will be rendered in the CMS and their default values:
+
+ ```yaml
+
+ prose:
+   rooturl: 'content'
+   media: 'static/images'
+   metadata:
+     content:
+     - name: "title"
+       field:
+         element: "textarea"
+         label: "Post-Title"
+         placeholder: "Name this Post"
+         value: ""
+     - name: "author"
+       field:
+         element: "textarea"
+         label: "Author"
+         placeholder: "Must be in format FirstnameLastname - e.g. JohnGriffin"
+         value: "Oxford Austrian Society"
+     - name: "categories"
+       field:
+         element: "multiselect"
+         label: "Add Tags"
+         options:
+           - name: "Speaker Event"
+             value: "Speaker Event"
+           - name: "Termcard"
+             value: "Termcard"
+           - name: "Trip"
+             value: "Trip"
+           - name: "Exchange"
+             value: "Exchange"
+           - name: "Social Event"
+             value: "Social Event"
+           - name: "News"
+             value: "News"
+         alterable: True
+     - name: "description"
+       field:
+         element: "textarea"
+         label: "Description"
+         placeholder: "The meta description - often used by Google in search results page."
+         value: ""
+     - name: "date"
+       field:
+         element: "text"
+         label: "Date YYYY-MM-DD"
+         value: ""
+     - name: "featured"
+       field:
+         element: "text"
+         label: "Header Image"
+         placeholder: "Full-width header image - e.g. /images/myfile.png"
+     - name: "featuredalt"
+       field:
+         element: "text"
+         label: "Alternative text if featured image is not loaded"
+         placeholder: ""
+         value: ""
+     - name: "featuredpath"
+       field:
+         element: "text"
+         label: "Featured Image Path"
+         placeholder: "The all but the last part of the Path"
+         value: ""
+     - name: "linktitle"
+       field:
+         element: "text"
+         label: "Linktitle"
+         placeholder: ""
+         value: ""
+     - name: "type"
+       field:
+         element: "hidden"
+         value: "post"
+
+     content/blog:
+     - name: "title"
+       field:
+         element: "textarea"
+         label: "Post-Title"
+         placeholder: "Name this Post"
+         value: ""
+     - name: "author"
+       field:
+         element: "textarea"
+         label: "Author"
+         placeholder: "Must be in format FirstnameLastname - e.g. JohnGriffin"
+         value: "Oxford Austrian Society"
+     - name: "categories"
+       field:
+         element: "multiselect"
+         label: "Add Tags"
+         options:
+           - name: "Speaker Event"
+             value: "Speaker Event"
+           - name: "Termcard"
+             value: "Termcard"
+           - name: "Trip"
+             value: "Trip"
+           - name: "Exchange"
+             value: "Exchange"
+           - name: "Social Event"
+             value: "Social Event"
+           - name: "News"
+             value: "News"
+         alterable: True
+     - name: "description"
+       field:
+         element: "textarea"
+         label: "Description"
+         placeholder: "The meta description - often used by Google in search results page."
+         value: ""
+     - name: "date"
+       field:
+         element: "text"
+         label: "Date YYYY-MM-DD"
+         value: ""
+     - name: "featured"
+       field:
+         element: "text"
+         label: "Header Image"
+         placeholder: "Full-width header image - e.g. /images/myfile.png"
+     - name: "featuredalt"
+       field:
+         element: "text"
+         label: "Alternative text if featured image is not loaded"
+         placeholder: ""
+         value: ""
+     - name: "featuredpath"
+       field:
+         element: "text"
+         label: "Featured Image Path"
+         placeholder: "The all but the last part of the Path"
+         value: ""
+     - name: "linktitle"
+       field:
+         element: "text"
+         label: "Linktitle"
+         placeholder: ""
+         value: ""
+     - name: "type"
+       field:
+         element: "hidden"
+         value: "post"
+ ```
