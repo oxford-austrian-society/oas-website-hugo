@@ -8,7 +8,7 @@ featured: ""
 featuredalt: ""
 featuredpath: ""
 linktitle: ""
-published: false
+published: true
 title: My testpost
 ---
 ## A New Post
