@@ -17,7 +17,7 @@ type = "post"
 
 **WHERE: Brasenose College, Lecture Room XI**
 
-**Hans Jörg Schelling** (born 27 Dezember 1953 in Hohenems, Vorarlberg as Johann Georg Schelling) is an Austrian entrepreneur, politician (ÖVP) and has been Austrian Minister of Finance since 1 September 2014.
+**Hans Jörg Schelling** (born 27 December 1953 in Hohenems, Vorarlberg as Johann Georg Schelling) is an Austrian entrepreneur, politician (ÖVP) and has been Austrian Minister of Finance since 1 September 2014.
 
 
 # Alfred Gusenbauer and Peter Haselsteiner
