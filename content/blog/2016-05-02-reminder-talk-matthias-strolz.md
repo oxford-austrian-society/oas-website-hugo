@@ -16,7 +16,7 @@ title: "Talk and Dinner: Matthias Strolz"
 
 **Brasenrose College, Lecture Room XI**
 
-Matthias Strolz (gebohren am 10. Juni 1973 in Bludenz) ist österreichischer Politiker. Er ist Gründungsmitglied und Vorsitzender der Partei NEOS – Das Neue Österreich und Liberales Forum sowie seit 29. Oktober 2013 Abgeordneter zum österreichischen Nationalrat.
+Matthias Strolz (geboren am 10. Juni 1973 in Bludenz) ist österreichischer Politiker. Er ist Gründungsmitglied und Vorsitzender der Partei NEOS – Das Neue Österreich und Liberales Forum sowie seit 29. Oktober 2013 Abgeordneter zum österreichischen Nationalrat.
 
 - Dinner Sign-Up: https://goo.gl/cm0R5f
 - Dinner Location: Christ Church College
